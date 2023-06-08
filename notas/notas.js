@@ -7,7 +7,7 @@ function contarAprobadosReprobados () {
     let reprobados = 0;
 
     for ( i = 1; i <= 12; i++) {
-        let nota = parseFloat(prompt(`Ingrese la nota del estudiante ${i}`));
+        let nota = prompt(`Ingrese la nota del estudiante ${i}`);
         notas.push(nota);
 
         if (nota >= 0 && nota <= 5) {
